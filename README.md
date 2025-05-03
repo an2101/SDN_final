@@ -35,14 +35,25 @@ cd SDN_final/controller
 ```
 **Collect normal traffic.**  
 ```bash
-ryu-manager MLP-controller.py
+ryu-manager collect_benign_trafic.py (in virtual python environment)
 ```
 run mininet (open another terminal in desktop)
 ```bash
-cd testsdn/mininet
+cd SDN_final/mininet
 ```
 ```bash
-sudo python3 topology.py
+sudo python3 generate_benign_trafic.py
+```
+**Collect DDoS traffic.**  
+```bash
+ryu-manager collect_ddos_trafic.py (in virtual python environment)
+```
+run mininet (open another terminal in desktop)
+```bash
+cd SDN_final/mininet
+```
+```bash
+sudo python3 generate_ddos_trafic.py
 ```
 In mininet CLI, simulate normal traffic
 ```bash
