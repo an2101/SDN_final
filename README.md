@@ -103,3 +103,8 @@ Simulate udp flood in xterm CLI (example h3 sent to h1):
 ```bash
 hping3 -2 -V -d 120 -w 64 -p 80 --rand-source --flood 10.0.0.1
 ```
+Open wireshark
+```bash
+sudo wireshark
+```
+Then choose s1-eth1 to view the packet.
