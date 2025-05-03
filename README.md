@@ -21,18 +21,19 @@ Demo video: https://drive.google.com/file/d/1uJZdLKMzb7t7uUvIZkhNDOHja9ycd7Sn/vi
 - Virtual python environment 3.8 (Used to run Ryu-manager)
 - Install hping3 library  
 # Collect data
-creat virtual python environment
+In desktop, open Terminal and clone source code.  
 ```bash
-git clone https://github.com/an2101/testsdn.git
+git clone https://github.com/an2101/SDN_final.git
 ```
-creat virtual python environment
+enable virtual python environment
 ```bash
 source my_env/bin/activate
 ```
 run controller (in virtual python environment)
 ```bash
-cd testsdn/Controller_Deep
+cd SDN_final/controller
 ```
+**Collect normal traffic.**  
 ```bash
 ryu-manager MLP-controller.py
 ```
