@@ -12,8 +12,8 @@ Our group in Danang University of Science and Technology.
 **- mininet:** Contains mininet simulation: include collect data normal traffic (generate_benign_trafic.py), DDoS traffic (generate_ddos_trafic.py) and main SDN topology (topology.py).  
 **- README.md:** Contains introduction and instructions project.  
 **- Google colab, Slide and pdf report:**  Contains report about project (Vietnamese language) and ipynb code.  
-Details information midterm project, please access in Folder "Document/Slide_RTOS_midterm_report.pptx"  
-Demo video: https://drive.google.com/file/d/1uJZdLKMzb7t7uUvIZkhNDOHja9ycd7Sn/view?usp=drive_link    
+Details information project, please access pdf report and video demo.  
+Demo video: https://www.youtube.com/watch?v=a9al9RQk7xk
 
 # System requirements
 - Ubuntu 22.04.5  
