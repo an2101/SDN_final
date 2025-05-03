@@ -36,7 +36,7 @@ cd SDN_final/controller
 ```
 **Collect normal traffic.**  
 ```bash
-ryu-manager collect_benign_trafic.py (in virtual python environment)
+ryu-manager collect_benign_trafic.py
 ```
 run mininet (open another terminal in desktop)
 ```bash
@@ -47,7 +47,7 @@ sudo python3 generate_benign_trafic.py
 ```
 **Collect DDoS traffic.**  
 ```bash
-ryu-manager collect_ddos_trafic.py (in virtual python environment)
+ryu-manager collect_ddos_trafic.py
 ```
 run mininet (open another terminal in desktop)
 ```bash
