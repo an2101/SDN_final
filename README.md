@@ -11,7 +11,7 @@ Our group in Danang University of Science and Technology.
 **- controller:** Contains Ryu-manager simulation about collect data (collect_benign_trafic.py, collect_ddos_trafic.py) and main Controller (MLP-controller.py) and deep-learning model checkpoint (mlp_model_detech.pkl).  
 **- mininet:** Contains mininet simulation: include collect data normal traffic (generate_benign_trafic.py), DDoS traffic (generate_ddos_trafic.py) and main SDN topology (topology.py).  
 **- README.md:** Contains introduction and instructions project.  
-**- Slide and pdf report:**  Contains report about project (Vietnamese language).  
+**- Google colab, Slide and pdf report:**  Contains report about project (Vietnamese language) and ipynb code.  
 Details information midterm project, please access in Folder "Document/Slide_RTOS_midterm_report.pptx"  
 Demo video: https://drive.google.com/file/d/1uJZdLKMzb7t7uUvIZkhNDOHja9ycd7Sn/view?usp=drive_link    
 
