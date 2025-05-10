@@ -126,7 +126,7 @@ def startNetwork():
     sleep(2)
     for h in hosts:
         h.cmd('cd /home/mininet/Downloads')
-    for i in range(600):
+    for i in range(300):
         
         print("--------------------------------------------------------------------------------")    
         print("Iteration n {} ...".format(i+1))
